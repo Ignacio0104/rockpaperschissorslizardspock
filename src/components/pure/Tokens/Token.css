@@ -1,0 +1,71 @@
+.token-container{
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 50%;
+    border: 13px solid transparent;
+    position: absolute;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.imagen-container{
+    margin: auto;
+}
+
+.icon{
+    height: 40px;
+    width: 40px;
+}
+
+.lizard{
+    box-shadow: 0px 4px 1px 0px rgba(150, 149, 149, 0.75) inset, 0px 4px 1px 0px rgba(125,71,227,0.75);
+    -webkit-box-shadow: 0px 4px 1px 0px rgba(150, 149, 149, 0.75) inset, 0px 4px 1px 0px rgba(125,71,227,0.75);
+    -moz-box-shadow: 0px 4px 1px 0px rgba(150, 149, 149, 0.75) inset, 0px 4px 1px 0px rgba(125,71,227,0.75);
+    background: linear-gradient(whitesmoke, whitesmoke) padding-box,
+    linear-gradient(133deg, rgba(131,79,227,1) 0%, rgba(140,93,229,1) 37%) border-box;
+    left: 40%;
+    top: 75%;
+}
+
+.scissors{
+    box-shadow: 0px 4px 1px 0px rgba(150, 149, 149, 0.75) inset, 0px 4px 1px 0px rgba(236, 158, 14, 0.75);
+    -webkit-box-shadow: 0px 4px 1px 0px rgba(150, 149, 149, 0.75) inset, 0px 4px 1px 0px rgba(236, 158, 14, 0.75);
+    -moz-box-shadow: 0px 4px 1px 0px rgba(150, 149, 149, 0.75) inset, 0px 4px 1px 0px rgba(236, 158, 14, 0.75);
+    background: linear-gradient(whitesmoke, whitesmoke) padding-box,
+    linear-gradient(133deg, hsl(39, 89%, 49%) 0%, hsl(40, 84%, 53%) 37%) border-box;
+    top: 32%;
+    left: 46%;
+}
+
+
+.spock{
+    box-shadow: 0px 4px 1px 0px rgba(150, 149, 149, 0.75) inset, 0px 4px 1px 0px hsl(189, 60%, 45%);
+    -webkit-box-shadow: 0px 4px 1px 0px rgba(150, 149, 149, 0.75) inset, 0px 4px 1px 0px hsl(189, 60%, 45%);
+    -moz-box-shadow: 0px 4px 1px 0px rgba(150, 149, 149, 0.75) inset, 0px 4px 1px 0px hsl(189, 60%, 45%);
+    background: linear-gradient(whitesmoke, whitesmoke) padding-box,
+    linear-gradient(133deg, hsl(189, 59%, 53%)  0%, hsl(189, 58%, 57%) 37%) border-box;
+    top:47%;
+    left: 37%;
+}
+
+.rock{
+    box-shadow: 0px 4px 1px 0px rgba(150, 149, 149, 0.75) inset, 0px 4px 1px 0px hsl(349, 59%, 45%);
+    -webkit-box-shadow: 0px 4px 1px 0px rgba(150, 149, 149, 0.75) inset, 0px 4px 1px 0px hsl(349, 59%, 45%);
+    -moz-box-shadow: 0px 4px 1px 0px rgba(150, 149, 149, 0.75) inset, 0px 4px 1px 0px hsl(349, 59%, 45%);
+    background: linear-gradient(whitesmoke, whitesmoke) padding-box,
+    linear-gradient(133deg, hsl(349, 71%, 52%) 0%, hsl(349, 70%, 56%) 37%) border-box;
+    top: 75%;
+    left: 53%;
+}
+
+.paper{
+    box-shadow: 0px 4px 1px 0px rgba(150, 149, 149, 0.75) inset, 0px 4px 1px 0px hsl(230, 58%, 47%);
+    -webkit-box-shadow: 0px 4px 1px 0px rgba(150, 149, 149, 0.75) inset, 0px 4px 1px 0px hsl(230, 58%, 47%);
+    -moz-box-shadow: 0px 4px 1px 0px rgba(150, 149, 149, 0.75) inset, 0px 4px 1px 0px hsl(230, 58%, 47%);
+    background: linear-gradient(whitesmoke, whitesmoke) padding-box,
+    linear-gradient(133deg, hsl(230, 89%, 62%) 0%, hsl(230, 89%, 65%) 37%) border-box;
+    top:47%;
+    left: 55%;
+}
+
+
