@@ -6,6 +6,15 @@ import scissorsIcon from "../../assets/images/icon-scissors.svg";
 import rockIcon from "../../assets/images/icon-rock.svg";
 import spockIcon from "../../assets/images/icon-spock.svg";
 import paperIcon from "../../assets/images/icon-paper.svg";
+import { useState, useEffect } from "react";
+
+export interface ITokenObject {
+  name: string;
+  image: string;
+  beats: string[];
+  defeatedBy: string[];
+  winningMessage: string[];
+}
 
 const tokensObjects = [
   {
@@ -46,14 +55,37 @@ const tokensObjects = [
 ];
 
 const Options = () => {
+  const [selectedToken, setSelectedToken] = useState<ITokenObject | null>(null);
+
+  const handleClick = (optionSelected: ITokenObject) => {
+    setSelectedToken(optionSelected);
+  };
+
+  const selectedOptionCheck = (token: ITokenObject) => {
+    if (selectedToken !== null && token.name !== selectedToken?.name) {
+      return "dissapear";
+    }
+  };
+
   return (
     <div className="main-options-container">
       <div className="pentagon-container">
-        <img src={Pentagon} alt="pentagon"></img>
+        <img
+          className={`${selectedToken !== null ? "dissapear" : ""}`}
+          src={Pentagon}
+          alt="pentagon"
+        ></img>
       </div>
-      <div className="tokens-container">
-        {tokensObjects.map((token) => (
-          <Token key={token.name} token={token}></Token>
+      <div>
+        {tokensObjects.map((token, index) => (
+          <div className={`${selectedOptionCheck(token)}`}>
+            <Token
+              key={index}
+              handleChange={handleClick}
+              token={token}
+              selectedToken={selectedToken}
+            ></Token>
+          </div>
         ))}
       </div>
     </div>

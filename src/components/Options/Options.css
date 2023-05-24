@@ -7,3 +7,8 @@
 .pentagon-container img{
     height: 250px;
 }
+
+.dissapear{
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}

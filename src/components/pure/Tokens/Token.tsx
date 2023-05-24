@@ -1,23 +1,22 @@
 import testIcon from "../../../assets/images/icon-lizard.svg";
+import { ITokenObject } from "../../Options/Options";
 import "./Token.css";
 
-interface IData {
-  name: string;
-  image: string;
-  beats: string[];
-  defeatedBy: string[];
-  winningMessage: string[];
-}
-
 interface ITokens {
-  token: IData;
+  token: ITokenObject;
+  handleChange: (arg: ITokenObject) => void;
+  selectedToken: ITokenObject | null;
 }
 
-const Token = (token: ITokens) => {
+const Token = ({ token, handleChange, selectedToken }: ITokens) => {
   return (
-    <div className={`token-container ${token.token.name}`}>
-      <div className="imagen-container">
-        <img className="icon" src={token.token.image} alt="icon"></img>
+    <div
+      className={`token-container ${token.name} ${
+        token.name === selectedToken?.name ? "move" : ""
+      }`}
+    >
+      <div className="imagen-container" onClick={() => handleChange(token)}>
+        <img className="icon" src={token.image} alt="icon"></img>
       </div>
     </div>
   );
