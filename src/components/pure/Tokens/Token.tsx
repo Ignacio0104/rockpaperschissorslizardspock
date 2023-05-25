@@ -14,8 +14,10 @@ const Token = ({ token, handleChange, selectedToken, isComputer }: ITokens) => {
   return (
     <div
       className={` ${
-        isComputer ? "token-container-opponent" : "token-container"
-      } ${token.name} ${token.name === selectedToken?.name ? "move" : ""}`}
+        isComputer ? "token-container-opponent" : "token-container winner"
+      } ${token.name} ${
+        token.name === selectedToken?.name ? "move" : ""
+      } winner`}
     >
       <div className="imagen-container" onClick={() => handleChange(token)}>
         <img className="icon" src={token.image} alt="icon"></img>

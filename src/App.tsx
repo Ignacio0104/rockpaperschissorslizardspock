@@ -1,5 +1,6 @@
 import "./App.css";
 import Options from "./components/Options/Options";
+import Rules from "./components/Rules/Rules";
 import Scoreboard from "./components/scoreboard/Scoreboard";
 import { useState, useEffect } from "react";
 
@@ -29,6 +30,7 @@ function App() {
     <div className="App">
       <Scoreboard score={score} />
       <Options handleScore={handleScore} />
+      <Rules />
     </div>
   );
 }

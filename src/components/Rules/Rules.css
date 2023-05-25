@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap');
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    margin-right: 5%;
+}
+
+button{
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: lighter;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover{
+    background-color: whitesmoke;
+    border: 1px solid rgba(20,21,57,1);
+    color: rgba(20,21,57,1);
+}
+
+.modal-container{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.562);
+    z-index: 1000;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: modalFadeIn 0.5s forwards;
+}
+
+
+
+.information-container{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 0px 30px 20px 30px;
+}
+
+.rules-text-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    letter-spacing: 1px;
+    color: hsl(229, 63%, 40%)
+}
+
+.rules-text-container img{
+    height: 20px;
+    cursor: pointer;
+}
+
+@keyframes modalFadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
