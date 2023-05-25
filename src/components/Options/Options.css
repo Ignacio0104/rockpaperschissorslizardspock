@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap');
 .main-options-container{
     display: flex;
     justify-content: center;
+    margin-top: 70px;
+}
+
+.main-active-container{
+    display: flex;
+    justify-content: space-around;
     margin-top: 70px;
 }
 

@@ -1,15 +1,11 @@
 import { useEffect, useState } from "react";
 import "./Scoreboard.css";
 
-const Scoreboard = () => {
-  const [points, setPoints] = useState(0);
-  useEffect(() => {
-    let score = localStorage.getItem("score");
-    if (score) {
-      setPoints(+score);
-    }
-  }, []);
+interface IScoreboard {
+  score: number | undefined;
+}
 
+const Scoreboard = (score: IScoreboard) => {
   return (
     <div className="score-main-container">
       <div className="score-text-container">
@@ -21,7 +17,7 @@ const Scoreboard = () => {
       </div>
       <div className="score-number-container">
         <h4>SCORE</h4>
-        <h1>{points}</h1>
+        <h1>{score.score}</h1>
       </div>
     </div>
   );

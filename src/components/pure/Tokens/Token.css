@@ -85,3 +85,16 @@
 }
 
 
+.token-container-opponent{
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 50%;
+    border: 13px solid transparent;
+    position: absolute;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    left: 71%;
+    top: 56%;
+    transform: scale(2.5);
+}
