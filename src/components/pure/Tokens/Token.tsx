@@ -8,16 +8,27 @@ interface ITokens {
   handleChange: (arg: ITokenObject) => void;
   selectedToken: ITokenObject | null;
   isComputer: boolean;
+  isWinner: boolean;
 }
 
-const Token = ({ token, handleChange, selectedToken, isComputer }: ITokens) => {
+const Token = ({
+  token,
+  handleChange,
+  selectedToken,
+  isComputer,
+  isWinner,
+}: ITokens) => {
+  useEffect(() => {
+    console.log(isWinner);
+  }, [isWinner]);
+
   return (
     <div
       className={` ${
-        isComputer ? "token-container-opponent" : "token-container winner"
-      } ${token.name} ${
-        token.name === selectedToken?.name ? "move" : ""
-      } winner`}
+        isComputer ? "token-container-opponent" : "token-container"
+      } ${token.name} ${token.name === selectedToken?.name ? "move" : ""} ${
+        isWinner ? "winner" : ""
+      }`}
     >
       <div className="imagen-container" onClick={() => handleChange(token)}>
         <img className="icon" src={token.image} alt="icon"></img>

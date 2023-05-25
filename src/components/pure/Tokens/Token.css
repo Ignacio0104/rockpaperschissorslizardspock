@@ -98,3 +98,23 @@
     top: 56%;
     transform: scale(2.5);
 }
+
+@keyframes pulse {
+    0% {
+      box-shadow: 0px 0px 0px rgba(255, 253, 253, 0.89);
+    }
+    50% {
+      box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.676);
+    }
+    100% {
+      box-shadow: 0px 0px 0px rgba(247, 243, 243, 0.797);
+    }
+  }
+  
+  .token-container.winner {
+    animation: pulse 1.5s infinite;
+  }
+
+  .token-container-opponent.winner {
+    animation: pulse 1.5s infinite;
+  }

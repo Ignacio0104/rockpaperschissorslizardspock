@@ -152,6 +152,7 @@ const Options = (props: IOptions) => {
               token={token}
               selectedToken={selectedToken}
               isComputer={false}
+              isWinner={winner.winner === "user"}
             ></Token>
           </div>
         ))}
@@ -170,6 +171,7 @@ const Options = (props: IOptions) => {
               token={computerToken}
               selectedToken={selectedToken}
               isComputer={true}
+              isWinner={winner.winner === "computer"}
             ></Token>
           </div>
         )}
