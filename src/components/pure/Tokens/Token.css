@@ -118,3 +118,236 @@
   .token-container-opponent.winner {
     animation: pulse 1.5s infinite;
   }
+
+@media screen and (max-width:4000px) and (max-height:3000px){
+    .token-container{
+        padding: 50px;
+        border-radius: 50%;
+        border: 20px solid transparent;
+    }
+    
+    .imagen-container{
+        margin: auto;
+    }
+    
+    .icon{
+        height: 100px;
+        width: 100px;
+    }
+    
+    .lizard{
+        left: 35%;
+        top: 65%;
+    }
+    
+    .scissors{
+        top: 22%;
+        left: 45.5%;
+    }
+    
+    .spock{
+        top:36%;
+        left: 32%;
+    }
+    
+    .rock{
+        top: 65%;
+        left: 55%;
+    }
+    
+    .paper{
+        top:36%;
+        left: 59%;
+    }
+    
+    .token-container:hover{
+        transform: scale(1.2);
+    }
+    
+    .move{
+        top: 55%;
+        left: 20%;
+        transform: scale(2.5);
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .move:hover{
+        transform: scale(2.5);
+    }
+    
+    
+    .token-container-opponent{
+        padding: 40px;
+        border-radius: 50%;
+        border: 20px solid transparent;
+        left: 71%;
+        top: 56%;
+    }
+    
+  }
+
+  
+@media screen and (max-width:4000px) and (max-height:1440px){
+    .token-container{
+        padding: 40px;
+        border-radius: 50%;
+        border: 20px solid transparent;
+    }
+    
+    .imagen-container{
+        margin: auto;
+    }
+    
+    .icon{
+        height: 80px;
+        width: 80px;
+    }
+    
+    .lizard{
+        left: 40%;
+        top: 70%;
+    }
+    
+    .scissors{
+        top: 25%;
+        left: 46%;
+    }
+    
+    .spock{
+        top:40%;
+        left: 35%;
+    }
+    
+    .rock{
+        top: 70%;
+        left: 53%;
+    }
+    
+    .paper{
+        top:40%;
+        left: 57%;
+    }
+    
+    .token-container:hover{
+        transform: scale(1.2);
+    }
+    
+    .move{
+        top: 55%;
+        left: 20%;
+        transform: scale(2.5);
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .move:hover{
+        transform: scale(2.5);
+    }
+    
+    
+    .token-container-opponent{
+        padding: 40px;
+        border-radius: 50%;
+        border: 20px solid transparent;
+        left: 71%;
+        top: 56%;
+    }    
+}
+
+@media screen and (max-width:4000px) and (max-height:1200px){
+    .token-container{
+        padding: 30px;
+        border-radius: 50%;
+        border: 15px solid transparent;
+    }
+    
+    .imagen-container{
+        margin: auto;
+    }
+    
+    .icon{
+        height: 70px;
+        width: 70px;
+    }
+    
+    .lizard{
+        left: 40%;
+        top: 72%;
+    }
+    
+    .scissors{
+        top: 30%;
+        left: 47%;
+    }
+    
+    .spock{
+        top:42%;
+        left: 36%;
+    }
+    
+    .rock{
+        top: 72%;
+        left: 53%;
+    }
+    
+    .paper{
+        top:42%;
+        left: 58%;
+    }
+    
+    .token-container:hover{
+        transform: scale(1.2);
+    }
+    
+    .move{
+        top: 55%;
+        left: 20%;
+        transform: scale(2.5);
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .move:hover{
+        transform: scale(2.5);
+    }
+    
+    .token-container-opponent{
+        padding: 30px;
+        border-radius: 50%;
+        border: 15px solid transparent;
+        left: 71%;
+        top: 56%;
+    }
+}
+@media screen and (max-width:4000px) and (max-height:1100px){
+    
+    .spock{
+        left: 37%;
+    }
+    
+    .paper{
+        left: 57%;
+    }
+    
+    .token-container:hover{
+        transform: scale(1.2);
+    }
+    
+    .move{
+        top: 55%;
+        left: 20%;
+        transform: scale(2.5);
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .move:hover{
+        transform: scale(2.5);
+    }
+    
+    .token-container-opponent{
+        padding: 30px;
+        border-radius: 50%;
+        border: 15px solid transparent;
+        left: 71%;
+        top: 56%;
+    }
+    
+}
