@@ -103,3 +103,64 @@ button:hover{
     }
     
   }
+
+    @media screen and (max-width:4000px) and (max-height:1160px){
+    .button-container{
+        margin-top: 10vh;
+    }
+}
+@media screen and (max-width:4000px) and (max-height:980px){
+    .button-container{
+        margin-top: 5vh;
+    }
+}
+
+@media screen and (max-width:4000px) and (max-height:800px){
+    .button-container{
+        margin-top: 0vh;
+    }
+
+    .rules-image{
+        height: 450px;
+    }
+
+    .rules-text-container{
+        font-size: 25px;
+    }
+
+    .rules-text-container img{
+        height: 30px;
+    }
+}
+
+
+  @media screen and (max-width:1440px) and (max-height:850px){
+    .button-container{
+        margin-top: 5px;
+    }
+    
+    button{
+        width: 140px;
+        height: 35px;
+        font-size: 17px;
+    }
+    
+       
+    .information-container{
+        padding: 0px 30px 50px 30px;
+    }
+    
+    .rules-text-container{
+        font-size: 20px;
+    }
+
+    .rules-image{
+        height: 450px;
+    }
+    
+    .rules-text-container img{
+        height: 25px;
+        cursor: pointer;
+    }
+    
+  }
