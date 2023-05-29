@@ -36,6 +36,46 @@
 @media screen and (max-width:1440px) and (max-height:3000px){
     .pentagon-container img{
         height: 50vh;
-        width:24vw;
+        width:auto;
+    }
+}
+
+@media screen and (max-width:1440px) and (max-height:560px){
+    .pentagon-container img{
+        height: 47vh;
+        width:25vw;
+    }
+}
+
+
+@media screen and (max-width:1024px) and (max-height:550px){
+    .main-options-container{
+        margin-top: 4%;
+    }
+}
+
+@media screen and (max-width:768px) and (max-height:500px){
+    .main-active-container{
+        margin: 12px;
+    }
+    .pentagon-container img{
+        height: 50vh;
+        width:auto;
+    }
+}
+
+@media screen and (max-width:768px) and (max-height:330px){
+    .main-active-container{
+        margin: 16px;
+    }
+}
+
+@media screen and (max-width:425px) and (max-height:900px){
+    .main-options-container{
+        margin-top: 30px;
+    }
+    .pentagon-container img{
+        height: 45vh;
+        width:auto;
     }
 }

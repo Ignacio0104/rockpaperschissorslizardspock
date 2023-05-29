@@ -156,3 +156,112 @@
         font-size: 55px;
     }
 }
+
+
+@media screen and (max-width:1024px) and (max-height:465px){
+    .score-main-container{
+        margin-top: 20px;
+    }
+    .score-text-container{
+        margin: 10px 0px;
+    }
+    .score-text-container p{
+        font-size: 17px;
+    }
+    
+    .score-number-container h4{
+        padding: 0px;
+        font-size: 12px;
+    }
+    
+    .score-number-container h1{
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (max-width:768px) and (max-height:500px){
+    .score-main-container{
+        margin-top: 20px;
+    }
+    .score-text-container{
+        margin: 10px 0px;
+    }
+    .score-text-container p{
+        font-size: 17px;
+    }
+    
+    .score-number-container h4{
+        padding: 0px;
+        font-size: 12px;
+    }
+    
+    .score-number-container h1{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:768px) and (max-height:600px){
+    .score-main-container{
+        margin-top: 15px;
+    }
+    .score-text-container p{
+        font-size: 15px;
+    }
+    
+    .score-number-container h4{
+        padding: 0px;
+        font-size: 10px;
+    }
+    
+    .score-number-container h1{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:768px) and (max-height:330px){
+    .score-main-container{
+        margin-top: 15px;
+    }
+
+    .score-text-container{
+        margin: 5px 0px;
+    }
+    .score-text-container p{
+        font-size: 13px;
+    }
+
+    .score-number-container h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:425px) and (max-height:900px){
+    .score-main-container{
+        width: 80%;
+        border-radius: 10px;
+        padding: 5px 10px;
+    }
+
+    .score-main-container{
+        margin-top: 15px;
+    }
+
+    .score-text-container{
+        margin: 5px 0px;
+    }
+    .score-text-container p{
+        font-size: 15px;
+    }
+
+    .score-number-container {
+        width: 25%;
+    }
+    .score-number-container h4{
+        padding: 0px;
+        font-size: 12px;
+    }
+    .score-number-container h1{
+        font-size: 30px;
+    }
+}
