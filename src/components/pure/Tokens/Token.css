@@ -755,8 +755,69 @@
     }
 }
 
+@media screen and (max-width:1024px) and (max-height:1000px){
+    .token-container{
+        padding: 20px;
+        border:15px solid transparent;
+    }
+    
+    .icon{
+        height: 60px;
+        width: 60px;
+    }
+    
+    .lizard{
+        left: 32%;
+        top: 72%;
+    }
+    
+    .scissors{
+        top: 28%;
+        left: 44%;
+    }
+    
+    .spock{
+        top:45%;
+        left: 25%;
+    }
+    
+    .rock{
+        top: 73%;
+        left: 56%;
+    }
+    
+    .paper{
+        top:45%;
+        left: 62%;
+    }
+    
+    .token-container:hover{
+        transform: scale(1.2);
+    }
+    
+    .move{
+        top: 45%;
+        left: 15%;
+        transform: scale(2);
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .move:hover{
+        transform: scale(2);
+    }
+    
+    .token-container-opponent{
+        padding: 20px;
+        border: 15px solid transparent;
+        left: 75%;
+        top: 45%;
+        transform: scale(2);
+    }
+}
 
-@media screen and (max-width:1024px) and (max-height:700px){
+
+
+@media screen and (max-width:1024px) and (max-height:750px){
     .token-container{
         padding: 20px;
         border:15px solid transparent;
@@ -1047,6 +1108,65 @@
     }
 }
 
+@media screen and (max-width:768px) and (max-height:900px){
+    
+    .token-container{
+        padding: 15px;
+        border:9px solid transparent;
+    }
+    
+    .icon{
+        height: 50px;
+        width: 50px;
+    }
+    .lizard{
+        left: 28%;
+        top: 72%;
+    }
+    
+    .scissors{
+        top: 27%;
+        left: 44%;
+    }
+    
+    .spock{
+        top:42%;
+        left: 18%;
+    }
+    
+    .rock{
+        top: 72%;
+        left: 60%;
+    }
+    
+    .paper{
+        top:42%;
+        left: 69%;
+    }
+    
+    .token-container:hover{
+        transform: scale(1.2);
+    }
+    
+    .move{
+        top: 40%;
+        left: 12%;
+        transform: scale(2.5);
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .move:hover{
+        transform: scale(2.5);
+    }
+    
+    .token-container-opponent{
+        padding: 15px;
+        border: 9px solid transparent;
+        left: 76%;
+        top: 40%
+    }
+}
+
 @media screen and (max-width:768px) and (max-height:370px){
     
     .scissors{
@@ -1097,7 +1217,8 @@
     }
 }
 
-@media screen and (max-width:425px) and (max-height:900px){
+
+@media screen and (max-width:425px) and (max-height:920px){
     .token-container{
         padding: 15px;
         border:10px solid transparent;
@@ -1109,27 +1230,235 @@
     }
     .lizard{
         left: 25%;
-        top: 56%;
+        top: 70%;
     }
     
     .scissors{
-        top: 18%;
+        top: 25%;
         left: 41%;
     }
     
     .spock{
-        top:30%;
-        left: 12%;
+        top:43%;
+        left: 17%;
     }
     
     .rock{
-        top: 56%;
+        top: 70%;
         left: 57%;
     }
     
     .paper{
-        top:30%;
-        left: 67%;
+        top:43%;
+        left: 62%;
+    }
+    
+    .token-container:hover{
+        transform: scale(1.2);
+    }
+    
+    .move{
+        top: 30%;
+        left: 12%;
+        transform: scale(1.7);
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .move:hover{
+        transform: scale(1.7);
+    }
+   
+    .token-container-opponent{
+        padding: 15px;
+        border: 10px solid transparent;
+        left: 70%;
+        top: 30%;
+        transform: scale(1.7);
+    }
+}
+
+@media screen and (max-width:415px) and (max-height:920px){
+
+    .icon{
+        height: 45px;
+        width: 45px;
+    }
+    .lizard{
+        left: 20%;
+        top: 43%;
+    }
+    
+    .scissors{
+        top: 20%;
+        left: 39%;
+    }
+    
+    .spock{
+        top:28%;
+        left: 10%;
+    }
+    
+    .rock{
+        top: 43%;
+        left: 56%;
+    }
+    
+    .paper{
+        top:28%;
+        left: 68%;
+    }
+
+    .token-container:hover{
+        transform: scale(1.2);
+    }
+    
+    .move{
+        top: 25%;
+        left: 12%;
+        transform: scale(1.7);
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .move:hover{
+        transform: scale(1.7);
+    }
+   
+    .token-container-opponent{
+        padding: 15px;
+        border: 10px solid transparent;
+        left: 65%;
+        top: 25%;
+        transform: scale(1.7);
+    }
+}
+
+@media screen and (max-width:390px) and (max-height:920px){
+    .lizard{
+        top:65%;
+        left: 22%;
+    }
+    
+    .scissors{
+        left: 38%;
+        top: 25%;
+    }
+    
+    .spock{
+        top: 40%;
+        left: 11%;
+    }
+    
+    .rock{
+        top:65%;
+        left: 55%;
+    }
+    
+    .paper{
+        top: 40%;
+        left: 65%;
+    }
+
+    .token-container:hover{
+        transform: scale(1.2);
+    }
+    .move{
+        top: 30%;
+        left: 12%;
+        transform: scale(1.4);
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .move:hover{
+        transform: scale(1.4);
+    }
+   
+    .token-container-opponent{
+        left: 63%;
+        top: 30%;
+        transform: scale(1.4);
+    }
+}
+@media screen and (max-width:370px) and (max-height:650px){
+    .lizard{
+        left: 15%;
+        top: 58%;
+    }
+    
+    .scissors{
+        left: 38%;
+        top:18%;
+    }
+    
+    .spock{
+        top:32%;
+        left: 1%;
+    }
+    
+    .rock{
+        top: 58%;
+        left: 60%;
+    }
+    
+    .paper{
+        top:32%;
+        left: 75%;
+    }
+
+    .token-container:hover{
+        transform: scale(1.2);
+    }
+    .move{
+        top: 25%;
+        left: 12%;
+        transform: scale(1.4);
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .move:hover{
+        transform: scale(1.4);
+    }
+   
+    .token-container-opponent{
+        left: 63%;
+        top: 25%;
+        transform: scale(1.4);
+    }
+}
+
+
+@media screen and (max-width:360px) and (max-height:920px){
+    .token-container{
+        padding: 15px;
+        border:10px solid transparent;
+    }
+    
+    .icon{
+        height: 40px;
+        width: 40px;
+    }
+    .lizard{
+        left: 15%;
+        top: 60%;
+    }
+    
+    .scissors{
+        top: 25%;
+        left: 38%;
+    }
+    
+    .spock{
+        top:37%;
+        left: 7%;
+    }
+    
+    .rock{
+        top: 60%;
+        left: 57%;
+    }
+    
+    .paper{
+        top:37%;
+        left: 68%;
     }
     
     .token-container:hover{
@@ -1150,9 +1479,100 @@
     .token-container-opponent{
         padding: 15px;
         border: 10px solid transparent;
-        left: 70%;
+        left: 63%;
         top: 25%;
         transform: scale(1.7);
     }
 }
+@media screen and (max-width:390px) and (max-height:920px){
+    .lizard{
+        left: 19%;
+        top: 48%;
+    }
+    
+    .scissors{
+        top: 22%;
+        left: 38%;
+    }
+    
+    .spock{
+        top:32%;
+        left: 7%;
+    }
+    
+    .rock{
+        top: 48%;
+        left: 57%;
+    }
+    
+    .paper{
+        top:32%;
+        left: 68%;
+    }
+    .move{
+        top: 25%;
+        left: 12%;
+        transform: scale(1.7);
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .move:hover{
+        transform: scale(1.7);
+    }
+   
+    .token-container-opponent{
+        padding: 15px;
+        border: 10px solid transparent;
+        left: 63%;
+        top: 25%;
+        transform: scale(1.7);
+    }
+    
+}
+
+@media screen and (max-width:340px) and (max-height:920px){
+    
+    .lizard{
+        left: 15%;
+    }
+    
+    .scissors{
+        left: 38%;
+    }
+    
+    .spock{
+        left: 3%;
+    }
+    
+    .rock{
+        left: 60%;
+    }
+    
+    .paper{
+        left: 71%;
+    }
+    
+    .token-container:hover{
+        transform: scale(1.2);
+    }
+    .move{
+        top: 25%;
+        left: 10%;
+        transform: scale(1.4);
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .move:hover{
+        transform: scale(1.4);
+    }
+   
+    .token-container-opponent{
+        left: 63%;
+        top: 25%;
+        transform: scale(1.4);
+    }
+}
+
+
+
 
